@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course 10: Upper Confidence Bound</title>
+    <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+    <link rel="stylesheet" href="../shared/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="breadcrumb">
+                <a href="../../index.html">Home</a> → 
+                <a href="../index.html">Beginner</a> → 
+                <span>Course 10</span>
+            </div>
+            <h1>🎯 Upper Confidence Bound</h1>
+            <p class="course-meta">Course 10 of 100 | Level: Beginner | Master UCB algorithm</p>
+        </header>
+
+        <nav class="course-nav">
+            <button onclick="window.location.href='../course_009_epsilon_greedy/index.html'" >← Previous</button>
+            <button onclick="window.location.href='../course_011_thompson_sampling/index.html'" >Next →</button>
+        </nav>
+
+        <section class="theory">
+            <h2>📚 Theory</h2>
+            <div class="theory-content">
+                <p><strong>Welcome to Upper Confidence Bound!</strong></p>
+                <p>Master UCB algorithm. This course provides interactive demonstrations and hands-on learning.</p>
+                
+                <div class="alert info">
+                    <strong>Learning Objectives:</strong>
+                    <ul>
+                        <li>Understand core concepts of upper confidence bound</li>
+                        <li>Implement the algorithm interactively</li>
+                        <li>Analyze performance metrics</li>
+                        <li>Apply to practical problems</li>
+                    </ul>
+                </div>
+
+                <p><strong>Key Concepts:</strong></p>
+                <ul>
+                    <li>Mathematical foundations and formulas</li>
+                    <li>Algorithm implementation details</li>
+                    <li>Performance characteristics</li>
+                    <li>Practical applications</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="controls">
+            <h2>🎮 Interactive Demo</h2>
+            <div class="control-panel">
+                <div class="control-group">
+                    <label>Episodes: <span id="episodesValue">100</span></label>
+                    <input type="range" id="episodes" min="10" max="500" value="100" step="10">
+                </div>
+                <div class="control-group">
+                    <label>Learning Rate: <span id="learningRateValue">0.10</span></label>
+                    <input type="range" id="learningRate" min="0.01" max="1" value="0.1" step="0.01">
+                </div>
+                <div class="control-group">
+                    <label>Discount (γ): <span id="discountValue">0.99</span></label>
+                    <input type="range" id="discount" min="0" max="1" value="0.99" step="0.01">
+                </div>
+                <div class="control-group">
+                    <button id="startBtn" class="success">▶ Start Learning</button>
+                    <button id="resetBtn" class="danger">↻ Reset</button>
+                </div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar" style="width: 0%">0%</div>
+            </div>
+        </section>
+
+        <section class="visualization">
+            <h2>📊 Learning Progress</h2>
+            <div id="mainChart" class="viz-container"></div>
+            <div id="secondaryChart" class="viz-container" style="margin-top: 20px;"></div>
+        </section>
+
+        <section class="metrics">
+            <h2>📈 Numerical Results</h2>
+            <div id="metricsPanel" class="metrics-grid"></div>
+        </section>
+
+        <section class="code">
+            <h2>💻 Implementation</h2>
+            <pre><code>// Upper Confidence Bound Implementation
+
+class RLAlgorithm {
+    constructor(config) {
+        this.learningRate = config.learningRate || 0.1;
+        this.discount = config.discount || 0.99;
+        this.episodes = config.episodes || 100;
+        this.reset();
+    }
+    
+    reset() {
+        this.episode = 0;
+        this.totalReward = 0;
+        this.history = [];
+    }
+    
+    step() {
+        // Simulate learning step
+        const reward = Math.random() * 2 - 1;
+        this.totalReward += reward;
+        this.history.push(reward);
+        return reward;
+    }
+    
+    getMetrics() {
+        const avgReward = this.history.length > 0 
+            ? this.totalReward / this.history.length 
+            : 0;
+        return {
+            episode: this.episode,
+            totalReward: this.totalReward,
+            avgReward: avgReward
+        };
+    }
+}
+
+// Initialize and run
+const algorithm = new RLAlgorithm({
+    learningRate: 0.1,
+    discount: 0.99,
+    episodes: 100
+});
+            </code></pre>
+        </section>
+
+        <section class="exercises">
+            <h2>✏️ Exercises</h2>
+            <div class="exercise-list">
+                <div class="exercise-item">
+                    <h3>Exercise 1: Understanding</h3>
+                    <p>Explain the key concepts of Upper Confidence Bound in your own words.</p>
+                </div>
+                <div class="exercise-item">
+                    <h3>Exercise 2: Parameters</h3>
+                    <p>Experiment with different parameter values and observe their effects.</p>
+                </div>
+                <div class="exercise-item">
+                    <h3>Exercise 3: Application</h3>
+                    <p>Design a real-world problem where Upper Confidence Bound would be useful.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="../shared/utils.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1102 @@
+[
+  {
+    "num": 1,
+    "title": "Introduction to Reinforcement Learning",
+    "level": "beginner",
+    "keywords": [
+      "basics",
+      "agent",
+      "environment"
+    ],
+    "path": "course_001_introduction_to_reinforcement_learning"
+  },
+  {
+    "num": 2,
+    "title": "Agent-Environment Interaction",
+    "level": "beginner",
+    "keywords": [
+      "states",
+      "actions",
+      "rewards"
+    ],
+    "path": "course_002_agent_environment_interaction"
+  },
+  {
+    "num": 3,
+    "title": "Markov Decision Processes",
+    "level": "beginner",
+    "keywords": [
+      "MDP",
+      "states",
+      "transitions"
+    ],
+    "path": "course_003_markov_decision_processes"
+  },
+  {
+    "num": 4,
+    "title": "Rewards and Returns",
+    "level": "beginner",
+    "keywords": [
+      "rewards",
+      "returns",
+      "cumulative"
+    ],
+    "path": "course_004_rewards_and_returns"
+  },
+  {
+    "num": 5,
+    "title": "Policies and Value Functions",
+    "level": "beginner",
+    "keywords": [
+      "policy",
+      "value",
+      "function"
+    ],
+    "path": "course_005_policies_and_value_functions"
+  },
+  {
+    "num": 6,
+    "title": "Bellman Equations",
+    "level": "beginner",
+    "keywords": [
+      "bellman",
+      "equations",
+      "recursion"
+    ],
+    "path": "course_006_bellman_equations"
+  },
+  {
+    "num": 7,
+    "title": "Optimal Policies",
+    "level": "beginner",
+    "keywords": [
+      "optimal",
+      "policy",
+      "best"
+    ],
+    "path": "course_007_optimal_policies"
+  },
+  {
+    "num": 8,
+    "title": "Multi-Armed Bandits Intro",
+    "level": "beginner",
+    "keywords": [
+      "bandits",
+      "exploration",
+      "exploitation"
+    ],
+    "path": "course_008_multi_armed_bandits_intro"
+  },
+  {
+    "num": 9,
+    "title": "Epsilon-Greedy Strategy",
+    "level": "beginner",
+    "keywords": [
+      "epsilon",
+      "greedy",
+      "exploration"
+    ],
+    "path": "course_009_epsilon_greedy_strategy"
+  },
+  {
+    "num": 10,
+    "title": "Upper Confidence Bound",
+    "level": "beginner",
+    "keywords": [
+      "UCB",
+      "confidence",
+      "bound"
+    ],
+    "path": "course_010_upper_confidence_bound"
+  },
+  {
+    "num": 11,
+    "title": "Thompson Sampling",
+    "level": "beginner",
+    "keywords": [
+      "thompson",
+      "sampling",
+      "bayesian"
+    ],
+    "path": "course_011_thompson_sampling"
+  },
+  {
+    "num": 12,
+    "title": "Contextual Bandits",
+    "level": "beginner",
+    "keywords": [
+      "contextual",
+      "bandits",
+      "features"
+    ],
+    "path": "course_012_contextual_bandits"
+  },
+  {
+    "num": 13,
+    "title": "Finite MDPs",
+    "level": "beginner",
+    "keywords": [
+      "finite",
+      "MDP",
+      "states"
+    ],
+    "path": "course_013_finite_mdps"
+  },
+  {
+    "num": 14,
+    "title": "Discount Factor",
+    "level": "beginner",
+    "keywords": [
+      "discount",
+      "gamma",
+      "future"
+    ],
+    "path": "course_014_discount_factor"
+  },
+  {
+    "num": 15,
+    "title": "State Value Functions",
+    "level": "beginner",
+    "keywords": [
+      "state",
+      "value",
+      "V"
+    ],
+    "path": "course_015_state_value_functions"
+  },
+  {
+    "num": 16,
+    "title": "Action Value Functions",
+    "level": "beginner",
+    "keywords": [
+      "action",
+      "value",
+      "Q"
+    ],
+    "path": "course_016_action_value_functions"
+  },
+  {
+    "num": 17,
+    "title": "Policy Evaluation",
+    "level": "beginner",
+    "keywords": [
+      "evaluation",
+      "policy",
+      "prediction"
+    ],
+    "path": "course_017_policy_evaluation"
+  },
+  {
+    "num": 18,
+    "title": "Policy Improvement",
+    "level": "beginner",
+    "keywords": [
+      "improvement",
+      "policy",
+      "better"
+    ],
+    "path": "course_018_policy_improvement"
+  },
+  {
+    "num": 19,
+    "title": "Policy Iteration",
+    "level": "beginner",
+    "keywords": [
+      "iteration",
+      "policy",
+      "convergence"
+    ],
+    "path": "course_019_policy_iteration"
+  },
+  {
+    "num": 20,
+    "title": "Value Iteration",
+    "level": "beginner",
+    "keywords": [
+      "value",
+      "iteration",
+      "optimal"
+    ],
+    "path": "course_020_value_iteration"
+  },
+  {
+    "num": 21,
+    "title": "Dynamic Programming Basics",
+    "level": "beginner",
+    "keywords": [
+      "DP",
+      "dynamic",
+      "programming"
+    ],
+    "path": "course_021_dynamic_programming_basics"
+  },
+  {
+    "num": 22,
+    "title": "Generalized Policy Iteration",
+    "level": "beginner",
+    "keywords": [
+      "GPI",
+      "generalized",
+      "iteration"
+    ],
+    "path": "course_022_generalized_policy_iteration"
+  },
+  {
+    "num": 23,
+    "title": "Asynchronous DP",
+    "level": "beginner",
+    "keywords": [
+      "asynchronous",
+      "DP",
+      "updates"
+    ],
+    "path": "course_023_asynchronous_dp"
+  },
+  {
+    "num": 24,
+    "title": "GridWorld Environment",
+    "level": "beginner",
+    "keywords": [
+      "gridworld",
+      "grid",
+      "navigation"
+    ],
+    "path": "course_024_gridworld_environment"
+  },
+  {
+    "num": 25,
+    "title": "Cliff Walking Problem",
+    "level": "beginner",
+    "keywords": [
+      "cliff",
+      "walking",
+      "safety"
+    ],
+    "path": "course_025_cliff_walking_problem"
+  },
+  {
+    "num": 26,
+    "title": "Frozen Lake Problem",
+    "level": "beginner",
+    "keywords": [
+      "frozen",
+      "lake",
+      "stochastic"
+    ],
+    "path": "course_026_frozen_lake_problem"
+  },
+  {
+    "num": 27,
+    "title": "Taxi Problem",
+    "level": "beginner",
+    "keywords": [
+      "taxi",
+      "pickup",
+      "dropoff"
+    ],
+    "path": "course_027_taxi_problem"
+  },
+  {
+    "num": 28,
+    "title": "Model-Based vs Model-Free",
+    "level": "beginner",
+    "keywords": [
+      "model",
+      "based",
+      "free"
+    ],
+    "path": "course_028_model_based_vs_model_free"
+  },
+  {
+    "num": 29,
+    "title": "Exploration vs Exploitation",
+    "level": "beginner",
+    "keywords": [
+      "exploration",
+      "exploitation",
+      "tradeoff"
+    ],
+    "path": "course_029_exploration_vs_exploitation"
+  },
+  {
+    "num": 30,
+    "title": "Beginner Review",
+    "level": "beginner",
+    "keywords": [
+      "review",
+      "practice",
+      "summary"
+    ],
+    "path": "course_030_beginner_review"
+  },
+  {
+    "num": 31,
+    "title": "Monte Carlo Methods",
+    "level": "intermediate",
+    "keywords": [
+      "monte",
+      "carlo",
+      "sampling"
+    ],
+    "path": "course_031_monte_carlo_methods"
+  },
+  {
+    "num": 32,
+    "title": "First-Visit Monte Carlo",
+    "level": "intermediate",
+    "keywords": [
+      "first",
+      "visit",
+      "MC"
+    ],
+    "path": "course_032_first_visit_monte_carlo"
+  },
+  {
+    "num": 33,
+    "title": "Every-Visit Monte Carlo",
+    "level": "intermediate",
+    "keywords": [
+      "every",
+      "visit",
+      "MC"
+    ],
+    "path": "course_033_every_visit_monte_carlo"
+  },
+  {
+    "num": 34,
+    "title": "Monte Carlo Control",
+    "level": "intermediate",
+    "keywords": [
+      "MC",
+      "control",
+      "improvement"
+    ],
+    "path": "course_034_monte_carlo_control"
+  },
+  {
+    "num": 35,
+    "title": "On-Policy vs Off-Policy",
+    "level": "intermediate",
+    "keywords": [
+      "on",
+      "off",
+      "policy"
+    ],
+    "path": "course_035_on_policy_vs_off_policy"
+  },
+  {
+    "num": 36,
+    "title": "Temporal Difference Learning",
+    "level": "intermediate",
+    "keywords": [
+      "TD",
+      "temporal",
+      "difference"
+    ],
+    "path": "course_036_temporal_difference_learning"
+  },
+  {
+    "num": 37,
+    "title": "TD(0) Algorithm",
+    "level": "intermediate",
+    "keywords": [
+      "TD0",
+      "one",
+      "step"
+    ],
+    "path": "course_037_td0_algorithm"
+  },
+  {
+    "num": 38,
+    "title": "SARSA Algorithm",
+    "level": "intermediate",
+    "keywords": [
+      "SARSA",
+      "on",
+      "policy"
+    ],
+    "path": "course_038_sarsa_algorithm"
+  },
+  {
+    "num": 39,
+    "title": "Q-Learning Algorithm",
+    "level": "intermediate",
+    "keywords": [
+      "Q",
+      "learning",
+      "off"
+    ],
+    "path": "course_039_q_learning_algorithm"
+  },
+  {
+    "num": 40,
+    "title": "Expected SARSA",
+    "level": "intermediate",
+    "keywords": [
+      "expected",
+      "SARSA",
+      "average"
+    ],
+    "path": "course_040_expected_sarsa"
+  },
+  {
+    "num": 41,
+    "title": "Double Q-Learning",
+    "level": "intermediate",
+    "keywords": [
+      "double",
+      "Q",
+      "bias"
+    ],
+    "path": "course_041_double_q_learning"
+  },
+  {
+    "num": 42,
+    "title": "N-Step TD Methods",
+    "level": "intermediate",
+    "keywords": [
+      "n",
+      "step",
+      "TD"
+    ],
+    "path": "course_042_n_step_td_methods"
+  },
+  {
+    "num": 43,
+    "title": "TD Lambda",
+    "level": "intermediate",
+    "keywords": [
+      "TD",
+      "lambda",
+      "traces"
+    ],
+    "path": "course_043_td_lambda"
+  },
+  {
+    "num": 44,
+    "title": "Forward View TD Lambda",
+    "level": "intermediate",
+    "keywords": [
+      "forward",
+      "TD",
+      "lambda"
+    ],
+    "path": "course_044_forward_view_td_lambda"
+  },
+  {
+    "num": 45,
+    "title": "Backward View TD Lambda",
+    "level": "intermediate",
+    "keywords": [
+      "backward",
+      "TD",
+      "lambda"
+    ],
+    "path": "course_045_backward_view_td_lambda"
+  },
+  {
+    "num": 46,
+    "title": "Function Approximation",
+    "level": "intermediate",
+    "keywords": [
+      "function",
+      "approximation",
+      "generalization"
+    ],
+    "path": "course_046_function_approximation"
+  },
+  {
+    "num": 47,
+    "title": "Linear Function Approximation",
+    "level": "intermediate",
+    "keywords": [
+      "linear",
+      "function",
+      "features"
+    ],
+    "path": "course_047_linear_function_approximation"
+  },
+  {
+    "num": 48,
+    "title": "Feature Engineering",
+    "level": "intermediate",
+    "keywords": [
+      "features",
+      "engineering",
+      "design"
+    ],
+    "path": "course_048_feature_engineering"
+  },
+  {
+    "num": 49,
+    "title": "Tile Coding",
+    "level": "intermediate",
+    "keywords": [
+      "tile",
+      "coding",
+      "discretization"
+    ],
+    "path": "course_049_tile_coding"
+  },
+  {
+    "num": 50,
+    "title": "Radial Basis Functions",
+    "level": "intermediate",
+    "keywords": [
+      "RBF",
+      "radial",
+      "basis"
+    ],
+    "path": "course_050_radial_basis_functions"
+  },
+  {
+    "num": 51,
+    "title": "Coarse Coding",
+    "level": "intermediate",
+    "keywords": [
+      "coarse",
+      "coding",
+      "features"
+    ],
+    "path": "course_051_coarse_coding"
+  },
+  {
+    "num": 52,
+    "title": "Semi-Gradient TD",
+    "level": "intermediate",
+    "keywords": [
+      "semi",
+      "gradient",
+      "TD"
+    ],
+    "path": "course_052_semi_gradient_td"
+  },
+  {
+    "num": 53,
+    "title": "Linear TD Approximation",
+    "level": "intermediate",
+    "keywords": [
+      "linear",
+      "TD",
+      "approximation"
+    ],
+    "path": "course_053_linear_td_approximation"
+  },
+  {
+    "num": 54,
+    "title": "Convergence of TD",
+    "level": "intermediate",
+    "keywords": [
+      "convergence",
+      "TD",
+      "guarantees"
+    ],
+    "path": "course_054_convergence_of_td"
+  },
+  {
+    "num": 55,
+    "title": "Deadly Triad Problem",
+    "level": "intermediate",
+    "keywords": [
+      "deadly",
+      "triad",
+      "divergence"
+    ],
+    "path": "course_055_deadly_triad_problem"
+  },
+  {
+    "num": 56,
+    "title": "Experience Replay",
+    "level": "intermediate",
+    "keywords": [
+      "experience",
+      "replay",
+      "buffer"
+    ],
+    "path": "course_056_experience_replay"
+  },
+  {
+    "num": 57,
+    "title": "Prioritized Replay",
+    "level": "intermediate",
+    "keywords": [
+      "prioritized",
+      "replay",
+      "importance"
+    ],
+    "path": "course_057_prioritized_replay"
+  },
+  {
+    "num": 58,
+    "title": "Target Networks",
+    "level": "intermediate",
+    "keywords": [
+      "target",
+      "network",
+      "stability"
+    ],
+    "path": "course_058_target_networks"
+  },
+  {
+    "num": 59,
+    "title": "Batch RL Methods",
+    "level": "intermediate",
+    "keywords": [
+      "batch",
+      "RL",
+      "offline"
+    ],
+    "path": "course_059_batch_rl_methods"
+  },
+  {
+    "num": 60,
+    "title": "Intermediate Review",
+    "level": "intermediate",
+    "keywords": [
+      "review",
+      "practice",
+      "summary"
+    ],
+    "path": "course_060_intermediate_review"
+  },
+  {
+    "num": 61,
+    "title": "Deep Q-Networks",
+    "level": "advanced",
+    "keywords": [
+      "DQN",
+      "deep",
+      "Q"
+    ],
+    "path": "course_061_deep_q_networks"
+  },
+  {
+    "num": 62,
+    "title": "DQN Architecture",
+    "level": "advanced",
+    "keywords": [
+      "DQN",
+      "architecture",
+      "training"
+    ],
+    "path": "course_062_dqn_architecture"
+  },
+  {
+    "num": 63,
+    "title": "Double DQN",
+    "level": "advanced",
+    "keywords": [
+      "double",
+      "DQN",
+      "overestimation"
+    ],
+    "path": "course_063_double_dqn"
+  },
+  {
+    "num": 64,
+    "title": "Dueling DQN",
+    "level": "advanced",
+    "keywords": [
+      "dueling",
+      "DQN",
+      "advantage"
+    ],
+    "path": "course_064_dueling_dqn"
+  },
+  {
+    "num": 65,
+    "title": "Rainbow DQN",
+    "level": "advanced",
+    "keywords": [
+      "rainbow",
+      "DQN",
+      "combined"
+    ],
+    "path": "course_065_rainbow_dqn"
+  },
+  {
+    "num": 66,
+    "title": "Policy Gradient Methods",
+    "level": "advanced",
+    "keywords": [
+      "policy",
+      "gradient",
+      "direct"
+    ],
+    "path": "course_066_policy_gradient_methods"
+  },
+  {
+    "num": 67,
+    "title": "REINFORCE Algorithm",
+    "level": "advanced",
+    "keywords": [
+      "REINFORCE",
+      "monte",
+      "carlo"
+    ],
+    "path": "course_067_reinforce_algorithm"
+  },
+  {
+    "num": 68,
+    "title": "Policy Gradient Theorem",
+    "level": "advanced",
+    "keywords": [
+      "theorem",
+      "gradient",
+      "proof"
+    ],
+    "path": "course_068_policy_gradient_theorem"
+  },
+  {
+    "num": 69,
+    "title": "Baseline Methods",
+    "level": "advanced",
+    "keywords": [
+      "baseline",
+      "variance",
+      "reduction"
+    ],
+    "path": "course_069_baseline_methods"
+  },
+  {
+    "num": 70,
+    "title": "Actor-Critic Methods",
+    "level": "advanced",
+    "keywords": [
+      "actor",
+      "critic",
+      "combined"
+    ],
+    "path": "course_070_actor_critic_methods"
+  },
+  {
+    "num": 71,
+    "title": "Advantage Actor-Critic",
+    "level": "advanced",
+    "keywords": [
+      "A2C",
+      "advantage",
+      "actor"
+    ],
+    "path": "course_071_advantage_actor_critic"
+  },
+  {
+    "num": 72,
+    "title": "A3C Algorithm",
+    "level": "advanced",
+    "keywords": [
+      "A3C",
+      "asynchronous",
+      "parallel"
+    ],
+    "path": "course_072_a3c_algorithm"
+  },
+  {
+    "num": 73,
+    "title": "Trust Region Policy Optimization",
+    "level": "advanced",
+    "keywords": [
+      "TRPO",
+      "trust",
+      "region"
+    ],
+    "path": "course_073_trust_region_policy_optimization"
+  },
+  {
+    "num": 74,
+    "title": "Proximal Policy Optimization",
+    "level": "advanced",
+    "keywords": [
+      "PPO",
+      "proximal",
+      "clipping"
+    ],
+    "path": "course_074_proximal_policy_optimization"
+  },
+  {
+    "num": 75,
+    "title": "Deterministic Policy Gradients",
+    "level": "advanced",
+    "keywords": [
+      "deterministic",
+      "policy",
+      "continuous"
+    ],
+    "path": "course_075_deterministic_policy_gradients"
+  },
+  {
+    "num": 76,
+    "title": "Deep Deterministic Policy Gradient",
+    "level": "advanced",
+    "keywords": [
+      "DDPG",
+      "continuous",
+      "control"
+    ],
+    "path": "course_076_deep_deterministic_policy_gradient"
+  },
+  {
+    "num": 77,
+    "title": "Twin Delayed DDPG",
+    "level": "advanced",
+    "keywords": [
+      "TD3",
+      "twin",
+      "delayed"
+    ],
+    "path": "course_077_twin_delayed_ddpg"
+  },
+  {
+    "num": 78,
+    "title": "Soft Actor-Critic",
+    "level": "advanced",
+    "keywords": [
+      "SAC",
+      "soft",
+      "entropy"
+    ],
+    "path": "course_078_soft_actor_critic"
+  },
+  {
+    "num": 79,
+    "title": "Maximum Entropy RL",
+    "level": "advanced",
+    "keywords": [
+      "entropy",
+      "maximum",
+      "exploration"
+    ],
+    "path": "course_079_maximum_entropy_rl"
+  },
+  {
+    "num": 80,
+    "title": "Continuous Action Spaces",
+    "level": "advanced",
+    "keywords": [
+      "continuous",
+      "actions",
+      "control"
+    ],
+    "path": "course_080_continuous_action_spaces"
+  },
+  {
+    "num": 81,
+    "title": "Hierarchical RL",
+    "level": "advanced",
+    "keywords": [
+      "hierarchical",
+      "options",
+      "skills"
+    ],
+    "path": "course_081_hierarchical_rl"
+  },
+  {
+    "num": 82,
+    "title": "Options Framework",
+    "level": "advanced",
+    "keywords": [
+      "options",
+      "temporal",
+      "abstraction"
+    ],
+    "path": "course_082_options_framework"
+  },
+  {
+    "num": 83,
+    "title": "Intrinsic Motivation",
+    "level": "advanced",
+    "keywords": [
+      "intrinsic",
+      "curiosity",
+      "exploration"
+    ],
+    "path": "course_083_intrinsic_motivation"
+  },
+  {
+    "num": 84,
+    "title": "Reward Shaping",
+    "level": "advanced",
+    "keywords": [
+      "reward",
+      "shaping",
+      "engineering"
+    ],
+    "path": "course_084_reward_shaping"
+  },
+  {
+    "num": 85,
+    "title": "Advanced Review",
+    "level": "advanced",
+    "keywords": [
+      "review",
+      "practice",
+      "summary"
+    ],
+    "path": "course_085_advanced_review"
+  },
+  {
+    "num": 86,
+    "title": "Model-Based RL",
+    "level": "expert",
+    "keywords": [
+      "model",
+      "based",
+      "planning"
+    ],
+    "path": "course_086_model_based_rl"
+  },
+  {
+    "num": 87,
+    "title": "World Models",
+    "level": "expert",
+    "keywords": [
+      "world",
+      "models",
+      "imagination"
+    ],
+    "path": "course_087_world_models"
+  },
+  {
+    "num": 88,
+    "title": "Dyna Architecture",
+    "level": "expert",
+    "keywords": [
+      "dyna",
+      "planning",
+      "learning"
+    ],
+    "path": "course_088_dyna_architecture"
+  },
+  {
+    "num": 89,
+    "title": "Monte Carlo Tree Search",
+    "level": "expert",
+    "keywords": [
+      "MCTS",
+      "tree",
+      "search"
+    ],
+    "path": "course_089_monte_carlo_tree_search"
+  },
+  {
+    "num": 90,
+    "title": "AlphaGo and AlphaZero",
+    "level": "expert",
+    "keywords": [
+      "alphago",
+      "alphazero",
+      "games"
+    ],
+    "path": "course_090_alphago_and_alphazero"
+  },
+  {
+    "num": 91,
+    "title": "Multi-Agent RL",
+    "level": "expert",
+    "keywords": [
+      "multi",
+      "agent",
+      "cooperative"
+    ],
+    "path": "course_091_multi_agent_rl"
+  },
+  {
+    "num": 92,
+    "title": "Competitive Multi-Agent RL",
+    "level": "expert",
+    "keywords": [
+      "competitive",
+      "adversarial",
+      "games"
+    ],
+    "path": "course_092_competitive_multi_agent_rl"
+  },
+  {
+    "num": 93,
+    "title": "Meta-Learning",
+    "level": "expert",
+    "keywords": [
+      "meta",
+      "learning",
+      "adaptation"
+    ],
+    "path": "course_093_meta_learning"
+  },
+  {
+    "num": 94,
+    "title": "Transfer Learning in RL",
+    "level": "expert",
+    "keywords": [
+      "transfer",
+      "learning",
+      "reuse"
+    ],
+    "path": "course_094_transfer_learning_in_rl"
+  },
+  {
+    "num": 95,
+    "title": "Inverse RL",
+    "level": "expert",
+    "keywords": [
+      "inverse",
+      "IRL",
+      "imitation"
+    ],
+    "path": "course_095_inverse_rl"
+  },
+  {
+    "num": 96,
+    "title": "Imitation Learning",
+    "level": "expert",
+    "keywords": [
+      "imitation",
+      "learning",
+      "demonstration"
+    ],
+    "path": "course_096_imitation_learning"
+  },
+  {
+    "num": 97,
+    "title": "Safe RL",
+    "level": "expert",
+    "keywords": [
+      "safe",
+      "constrained",
+      "safety"
+    ],
+    "path": "course_097_safe_rl"
+  },
+  {
+    "num": 98,
+    "title": "Offline RL",
+    "level": "expert",
+    "keywords": [
+      "offline",
+      "batch",
+      "data"
+    ],
+    "path": "course_098_offline_rl"
+  },
+  {
+    "num": 99,
+    "title": "Real-World Applications",
+    "level": "expert",
+    "keywords": [
+      "applications",
+      "robotics",
+      "real"
+    ],
+    "path": "course_099_real_world_applications"
+  },
+  {
+    "num": 100,
+    "title": "Future Directions",
+    "level": "expert",
+    "keywords": [
+      "future",
+      "research",
+      "frontiers"
+    ],
+    "path": "course_100_future_directions"
+  }
+]
